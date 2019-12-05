@@ -15,46 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="get_skeleton_from_mvk.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\get_record_config.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="get_skeleton_part.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="get_joints_from_mkv.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="get_joints_from_mvk.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="getAngel.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="get_joints.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="read_file.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\get_record_config.h">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="inc\joints_struct.h">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="getAngel.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\dirent.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>
