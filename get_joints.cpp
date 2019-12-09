@@ -185,13 +185,13 @@ int joints(string files)
 					if (frame_count0 >= 1)
 					{
 						////***************Çó½Ç¶È*******************
-						//float* joints_Angel;
-						//joints_Angel = JointsPositionToAngel(skeleton0);
-						//for (int i = 0; i < 12; i++)
-						//{
-						//	printf("%f", joints_Angel[i]);
-						//	printf("   ");
-						//}
+						float* joints_Angel;
+						joints_Angel = JointsPositionToAngel(skeleton0);
+						for (int i = 0; i < 12; i++)
+						{
+							printf("%f", joints_Angel[i]);
+							printf("   ");
+						}
 						//****************************************
 						timestamp0 = k4abt_frame_get_device_timestamp_usec(body_frame0);
 						fprintf(fp0, "%llu,", timestamp0);
